@@ -1,0 +1,141 @@
+body {
+  padding: 20px;
+  padding-bottom: 500px;
+}
+
+p {
+  color: green;
+  font-size: 30px;
+}
+
+/* Classes e Ids */
+.meu-paragrafo {
+  background-color: black;
+  color: red;
+}
+
+#titulo-principal {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  font-family: helvetica;
+}
+
+/* Elementos da pagina, listas */
+* {
+  font-family: Arial;
+}
+
+p,
+h1 {
+  border-bottom: 1px solid red;
+}
+
+/* Cores */
+.nome-da-cor {
+  color: pink;
+}
+
+.hexa {
+  color: #dee0e7;
+  background-color: #464242;
+}
+
+.rgb {
+  color: rgb(209, 195, 40);
+}
+
+/* Fontes */
+.serifada {
+  font-family: Georgia;
+}
+
+.sem-serifa {
+  font-family: helvetica;
+}
+
+.mono-espacada {
+  font-family: "Courier New";
+}
+
+/* Size e Weight */
+.tamanho-fonte-grande {
+  font-size: 64px;
+}
+
+.tamanho-fonte-pequena {
+  font-size: 12px;
+}
+
+.peso-fonte {
+  font-weight: 700;
+}
+
+.texto-italico {
+  font-style: italic;
+}
+
+/* Box Model */
+
+.box-model {
+  width: 200px;
+  height: 100px;
+  border: 1px solid blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Propriedades de texto */
+.alinhamento {
+  text-align: center;
+}
+
+.transform-minusculo {
+  text-transform: lowercase;
+}
+
+.transform-maiusculo {
+  text-transform: uppercase;
+}
+
+/* Espaçamento de linhas e letras */
+.espacamento-texto {
+  width: 150px;
+  line-height: 40px;
+  letter-spacing: 8px;
+}
+
+/* Links */
+.decoration {
+  text-decoration: none;
+}
+
+.visitado:visited {
+  color: orange;
+}
+
+.estilo-hover:hover {
+  background-color: #1292ae;
+}
+
+/* Link em Button */
+.btn {
+  background-color: #34ae43;
+  border: 3px solid #234966;
+  border-radius: 5px;
+  color: #ffff;
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  padding: 12px 7px;
+  text-align: center;
+  margin: 20px;
+  transition: 0.55s;
+  box-shadow: 5px 5px 5px rgb(73, 73, 73);
+}
+
+.btn:hover {
+  background-color: #234966;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
