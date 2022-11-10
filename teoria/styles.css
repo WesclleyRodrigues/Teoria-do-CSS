@@ -1,4 +1,4 @@
-body {
+  body {
   padding: 20px;
   padding-bottom: 500px;
 }
@@ -136,6 +136,4 @@ h1 {
 
 .btn:hover {
   background-color: #234966;
-  transform: scale(1.1);
-  transition: all 0.5s;
 }
